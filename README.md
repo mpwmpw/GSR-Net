@@ -10,7 +10,7 @@
 
 ![Logo](RPSO.png)
 
-## 4. Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8.
+## 4. Install the ultralytics package, including all [requirements](pyproject.toml), in a Python>=3.8 environment with PyTorch>=1.8.
 ```python
 pip install ultralytics
 ```
