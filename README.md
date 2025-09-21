@@ -1,6 +1,6 @@
 ## 1. This is the overall architecture of GSR-Net.
 
-![Logo](p1.png)
+![Logo](GSR-Net.png)
 
 ## 2.To achieve higher real-time detection performance in UAV small target detection, we designed a new feature extraction module GHGStem and a lightweight detection backbone GHGblock. The core of these techniques benefit from [GhostConv](https://github.com/huawei-noah/Efficient-AI-Backbones) and [ARConv](https://github.com/WangXueyang-uestc/ARConv.git).
 
