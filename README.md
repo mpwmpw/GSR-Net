@@ -29,10 +29,10 @@ model.train(
 ```
 ## 5. 🚀 Hyperparameter tuning.
 ```python
-from ultralytics import YOLO
+from ultralytics import RTDETR
 
 # Initialize model
-model = YOLO("GSR-Net.yaml")
+model = RTDETR("GSR-Net.yaml")
 
 # Define full hyperparameter search space
 search_space = {
@@ -76,5 +76,5 @@ model.tune(
 
 <img src="VisDrone2019.png" width="45%" style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="SHZU.png" width="45%" style="display:inline-block;">
 
-## 8. We thanks the open source by  [ultralytics](https://docs.ultralytics.com/zh)
+## 8. We thanks the open source by  [ultralytics](https://docs.ultralytics.com/zh).
 ## 9. Please refer to the pre-launch article for details.
