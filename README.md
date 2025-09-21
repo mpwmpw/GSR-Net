@@ -2,10 +2,11 @@
 
 ![Logo](GSR-Net.png)
 
-## 2.To achieve higher real-time detection performance in UAV small target detection, we designed a new feature extraction module GHGStem and a lightweight detection backbone GHGblock. The core of these techniques benefit from [GhostConv](https://github.com/huawei-noah/Efficient-AI-Backbones) and [ARConv](https://github.com/WangXueyang-uestc/ARConv.git).
+## 2.To achieve higher real-time detection performance in UAV small target detection, we designed a new feature extraction module GHGStem and a lightweight detection backbone GHGBlock. The core of these techniques benefit from [GhostConv](https://github.com/huawei-noah/Efficient-AI-Backbones) and [ARConv](https://github.com/WangXueyang-uestc/ARConv.git).
 
-<img src="p2.png" width="45%" style="display:inline-block;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="p3.png" width="45%" style="display:inline-block;">
+<img src="GHGStem.png" width="45%" style="display:inline-block;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="p3.png" width="45%" style="display:inline-block;">
 
+<img src="GHGBlock.png" width="45%" style="display:inline-block;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="p3.png" width="45%" style="display:inline-block;">
 ## 3. A new hyperparameter tuning algorithm, called R-PSO, is proposed, which refers to the heuristic principle of geese flying to maintain the overall formation.
 
 <img src="p4.png" width="45%" style="display:inline-block;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="p5.png" width="45%" style="display:inline-block;">
