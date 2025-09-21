@@ -10,7 +10,11 @@
 
 ![Logo](RPSO.png)
 
-## 4. Model training.
+## 4. Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8.
+```python
+pip install ultralytics
+```
+## 5. Model training.
 ```python
 from ultralytics import RTDETR
 
@@ -27,7 +31,7 @@ model.train(
     workers=8,                   # Number of dataloader workers
 )
 ```
-## 5. 🚀 Hyperparameter tuning.
+## 6. 🚀 Hyperparameter tuning.
 ```python
 from ultralytics import RTDETR
 
@@ -72,7 +76,7 @@ model.tune(
     val=True                     # Validate at each iteration
 )
 ```
-## 6. Below are our detection results on the public dataset VisDrone2019，and the actual test results conducted in the Shihezi University.
+## 7. Below are our detection results on the public dataset VisDrone2019，and the actual test results conducted in the Shihezi University.
 
 <img src="VisDrone2019.png" width="45%" style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="SHZU.png" width="45%" style="display:inline-block;">
 
